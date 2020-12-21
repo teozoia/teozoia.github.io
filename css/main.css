@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(12, 9, 22);
+    color: white;
+}
+
+.title{
+    line-height: normal;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.blink{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    0% {
+      opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 100;
+    }
+    90% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+
+.subtitle{
+    color: rgb(122, 122, 122);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.bio{
+    line-height: 24px;
+    font-size: medium;
+}
+
+.photo{
+    border-radius: 50%;
+    height: 18em;
+}
+
+.heart{
+    height: 1em;
+}
+
+.link{
+    color: rgb(18, 187, 32);
+}
+
+.link:hover{
+    color: white;
+    background-color: rgb(18, 187, 32);
+}
+
+mark{
+    color: white;
+    background-color: rgb(18, 187, 32);
+}
+
+.clearfix{
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.alpha{
+    align-self: center;
+}
